@@ -1,0 +1,39 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+ol[role="list"],
+ul[role="list"] {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    display: block;
+    max-inline-size: 100%;
+}  
+body {
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+@import "base/variables";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
