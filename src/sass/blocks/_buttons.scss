@@ -4,6 +4,7 @@
   border: none;
   border-radius: 5px;
   color: #FFFFFF;
+  font-family: 'Museo Sans Cyrl', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 19px;
@@ -14,6 +15,13 @@
     width: 300px;
     height: 50px;
     margin-top: 67px;;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  &-consultation {
+    margin-top: 5px;
+    width: 100%;
+    height: 58px;
     font-size: 16px;
     line-height: 25px;
   }
